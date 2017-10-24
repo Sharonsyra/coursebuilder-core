@@ -3429,11 +3429,11 @@ img { max-width: 100%; vertical-align: bottom; }
 
 .slider .hero-banner { display: block; background: url("../images/hero-banner.jpg"); background-position: center; background-size: cover; }
 
-.slider .hero-banner .hero-banner-content { max-width: 1200px; color: white; position: relative; padding: 150px 15px; }
+.slider .hero-banner .item { color: white; padding: 150px 15px; position: relative; overflow: visible; }
 
-.slider .hero-banner .hero-banner-content h1 { font-size: 2rem; font-family: Trebuchet MS; color: white; background: rgba(0, 0, 0, 0.5); padding: 80px; max-width: 500px; margin: 0 0 0 0; min-height: 430px; }
+.slider .hero-banner .item h1 { font-size: 2rem; font-family: Trebuchet MS; color: white; background: rgba(0, 0, 0, 0.5); padding: 80px; max-width: 500px; margin: 0 0 0 0; min-height: 430px; }
 
-.slider .hero-banner .hero-banner-content a { background: red; position: absolute; top: 50%; left: 50%; }
+.slider .hero-banner .item a { background: red; position: absolute; top: 50%; left: 50%; }
 
 @media screen and (max-width: 992px) { .slider { background: #F5F5F5; }
   .slider .hero-banner-content { padding: 50px 15px; }
