@@ -3429,7 +3429,7 @@ img { max-width: 100%; vertical-align: bottom; }
 
 .slider .hero-banner { display: block; background: url("../images/hero-banner.jpg"); background-position: center; background-size: cover; }
 
-.slider .hero-banner .item { color: white; padding: 150px 15px; position: relative; overflow: scroll; margin: 0 auto; display: grid; grid-template-rows: 40% 30% 30%; grid-template-columns: 60% 20% 20%; }
+.slider .hero-banner .item { color: white; padding: 150px 15px; position: relative; overflow: scroll; margin: 0 auto; display: grid; grid-template-rows: 40% 30% 30%; grid-template-columns: 100%; }
 
 .slider .hero-banner .item h1 { font-size: 2rem; font-family: Trebuchet MS; color: white; background: rgba(0, 0, 0, 0.5); padding: 80px; max-width: 500px; margin: 0 0 0 0; min-height: 430px; grid-row-start: 2; }
 
