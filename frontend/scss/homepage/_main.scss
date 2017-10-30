@@ -15,8 +15,11 @@
       color: white;
       padding: 150px 15px;
       position: relative;
-      overflow: visible;      
-
+      overflow: scroll;   
+      margin: 0 auto; 
+      display: grid;
+      grid-template-rows: 40% 30% 30%;  
+      grid-template-columns: 60% 20% 20%;        
       h1 {
         font-size: 2rem;
         font-family: Trebuchet MS;
@@ -26,13 +29,15 @@
         max-width: 500px;
         margin: 0 0 0 0;
         min-height: 430px;
+        grid-row-start: 2;
       }
 
       a {
         background: red;
         position: absolute;
-        top: 50%;
-        left: 50%;
+        margin-top: 30px;     
+        grid-row-start: 3;  
+        grid-column-start: 1; 
       }
   }
 }
